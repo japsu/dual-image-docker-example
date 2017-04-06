@@ -16,3 +16,7 @@ This repository uses Go, but you might do a similar exercise with eg. Java.
 ## Build production image
 
     ./build.sh
+
+Try out the production image:
+
+    docker run --rm japsu/hello

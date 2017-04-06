@@ -2,6 +2,7 @@ version: '2'
 services:
   hello:
     build: .
+    image: japsu/hello-build
     command: bash -c "set -x && go install github.com/japsu/hello && bin/hello"
     volumes:
       - ./src:/go/src
